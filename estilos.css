@@ -1,7 +1,7 @@
 body{
   margin: 0;
   padding: 0;
-  background-image: url(imagenes/fondo.png);
+  background-image: url(fondo.png);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -61,35 +61,35 @@ box-shadow: -13px 0px 54px 0px rgba(0,0,0,0.52);
 }
 
 #imagen1{
-  background: url(imagenes/imagen.jpg);
+  background: url(imagen.jpg);
   background-size: cover;
   height: 343px;
 }
 
 #imagen2{
-  background: url(imagenes/imagen.jpg);
+  background: url(imagen.jpg);
   background-size: cover;
   height: 343px;
 }
 #imagen3{
-  background: url(imagenes/imagen.jpg);
+  background: url(imagen.jpg);
   background-size: cover;
   height: 343px;
 }
 #imagen4{
-  background: url(imagenes/imagen.jpg);
+  background: url(imagen.jpg);
   background-size: cover;
   height: 343px;
   margin-top: 111px;
 }
 #imagen5{
-  background: url(imagenes/imagen.jpg);
+  background: url(imagen.jpg);
   background-size: cover;
   height: 343px;
   margin-top: 111px;
 }
 #imagen6{
-  background: url(imagenes/imagen.jpg);
+  background: url(imagen.jpg);
   background-size: cover;
   height: 343px;
   margin-top: 111px;
