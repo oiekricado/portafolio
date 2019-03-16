@@ -157,7 +157,7 @@ body{
 
 }
 #imagenubicacion{
-  background: url(imagenes/ubicacion.png);
+  background: url(ubicacion.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
