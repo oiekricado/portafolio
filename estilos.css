@@ -69,7 +69,7 @@ body{
   grid-gap: 47px;
 }
 #imagen1{
-  background:url(imagenes/imagen3.png);
+  background:url(imagen3.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -78,7 +78,7 @@ body{
 
 }
 #imagen2{
-  background:url(imagenes/imagen2.png);
+  background:url(imagen2.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -87,7 +87,7 @@ body{
 
 }
 #imagen3{
-  background:url(imagenes/imagen4.png);
+  background:url(imagen4.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -100,7 +100,7 @@ body{
   grid-column: 7/12;
 }
 #imagen5{
-  background:url(imagenes/imagen5.png);
+  background:url(imagen5.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -108,7 +108,7 @@ body{
   grid-column: 2/7;
 }
 #imagen6{
-  background:url(imagenes/imagen6.png);
+  background:url(imagen6.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
