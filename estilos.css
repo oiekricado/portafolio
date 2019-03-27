@@ -95,7 +95,8 @@ body{
   grid-column: 2/7;
 }
 #imagen4{
-  background-color: white;
+  background:url(imagenapp.png);
+  background-position: center;
   height: 473px;
   grid-column: 7/12;
 }
