@@ -1,0 +1,56 @@
+
+body{
+  margin:0;
+  padding: 0;
+}
+.contenedor{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  height: 100vh;
+  align-items: center;
+}
+.contenedor > h1{
+  grid-column: 2/3;
+  grid-row: 1/2;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat";
+  font-weight: 100;
+  font-size: 45px;
+}
+
+#imagen{
+  grid-column: 2/3;
+  grid-row: 2/3;
+  background: url(fondo3-1.png);
+  background-position: center;
+  background-size: cover;
+  height: 724px;
+  width: 1437px;
+  -webkit-box-shadow: -8px 10px 25px 0px rgba(0,0,0,0.47);
+-moz-box-shadow: -8px 10px 25px 0px rgba(0,0,0,0.47);
+box-shadow: -8px 10px 25px 0px rgba(0,0,0,0.47);
+}
+
+#flecha{
+  grid-column: 1/2;
+  grid-row: 1/2;
+  text-align: center;
+  text-decoration: none;
+  color: #757575 ;
+}
+
+
+@media all and (max-width: 1400px ) {
+  #imagen{
+    width: 961px;
+    height: 484px;
+  }
+}
+@media all and (max-width: 1200px ) {
+  #imagen{
+    width: 900px;
+    height: 400px;
+  }
+}
