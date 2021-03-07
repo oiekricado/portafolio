@@ -2,7 +2,7 @@ body{
   margin: 0;
   padding: 0;
   /*background-color: #222831;*/
-  background-color: white;
+  background-color: #640AB2;
   color: white;
 }
  /* prueba barra */
@@ -43,12 +43,16 @@ body::-webkit-scrollbar-thumb {
 
 .cuadroinicio{
   display: grid;
-  background-color: #00ADB5;
+  /*background-color: #00ADB5; */
   grid-column: 2/12;
   height: 902px;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(10,1fr);
   align-items: center;
+  border-radius: 50px;
+background: #640AB2;
+box-shadow:  20px 20px 60px #550997,
+             -20px -20px 60px #730ccd;
 }
 .cuadroinicio h3{
   font-size: 20px;
@@ -82,10 +86,15 @@ body::-webkit-scrollbar-thumb {
   grid-template-rows: repeat(4,auto) 605px;
   margin-top: 26px;
   grid-gap: 47px;
+  
 }
 .imagen1{
   height: 473px;
   grid-column: 2/7;
+  border-radius: 50px;
+  background: #9b08fd;
+  box-shadow:  20px 20px 60px #8407d7,
+             -20px -20px 60px #b209ff;
 }
 .imagen2{
   height: 473px;
@@ -126,6 +135,7 @@ body::-webkit-scrollbar-thumb {
 .acerca{
   height: 473px;
   grid-column: 2/7;
+  
 }
 #cv{
   color: white;
