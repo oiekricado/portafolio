@@ -1,0 +1,31 @@
+body{
+    background-color: #640AB2;
+}
+.cardcont{
+ display: grid;
+ grid-template-columns: repeat(6, 1fr);
+}
+.card {
+    margin: 30px auto;
+    cursor: pointer;
+    transition: 0.4s;
+    grid-column: 3/5;
+  }
+  .card_image {
+    width:500px;
+    height: 300px;
+    border-radius: 30px;
+    box-shadow:  20px 20px 60px #550997,
+    -20px -20px 60px #730ccd;
+
+  }
+  
+   #texto{
+     text-align: center;
+     font-size: 15px;
+     color: cornsilk;
+     padding-top:130px;
+     padding-left: 20px;
+     padding-right: 20px;
+     margin: 0;
+   }
